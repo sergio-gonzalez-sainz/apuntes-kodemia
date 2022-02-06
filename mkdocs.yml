@@ -32,6 +32,7 @@ nav:
     - Declaración de intenciones: 
       - Intenciones: index.md
       - ¿Cómo colaborar?: colaborar.md
+      - Markdown Syntax: syntax.md
     - Maquetado: maquetado.md
     - Talleres: 
           - Linux: linux.md
