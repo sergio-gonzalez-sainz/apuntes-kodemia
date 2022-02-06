@@ -1,0 +1,18 @@
+header.md-header{
+    background-color: rgba(25, 25, 25, 0.911);
+}
+
+nav.md-tabs{
+    background-color: rgba(25, 25, 25, 0.911);
+}
+
+.md-nav__link .md-nav__link--active{
+    color: rgb(25, 25, 25);
+}
+
+:root {
+    --md-primary-fg-color:        #0480c9;
+    --md-primary-fg-color--light: #e22807;
+    --md-primary-fg-color--dark:  #030590;
+  }
+  
