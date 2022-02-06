@@ -1,4 +1,4 @@
-# Taller de Linux 
+# Taller de Git y GitHub 
 
 Git nos va a ayudar a darle un seguimiento específico a archivos. 
 Nos permite administrar los cambios por archivo. Responde a:
