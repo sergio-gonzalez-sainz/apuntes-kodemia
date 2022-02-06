@@ -1,4 +1,43 @@
-site_name: Apuntes kodemia
+site_name: Apuntes
 theme:
   name: material
+  logo: assets/kodemia-logo.svg
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-4 
+        name: Switch to dark mode
+    - scheme: slate 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+copyright: Copyright &copy; 2022  made with ♥ for Kodemia community
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sergio-gonzalez-sainz/apuntes-kodemia
+
+repo_url: https://github.com/sergio-gonzalez-sainz/apuntes-kodemia
+repo_name: /apuntes-kodemia
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+    - Declaración de intenciones: 
+      - Intenciones: index.md
+      - ¿Cómo colaborar?: colaborar.md
+    - Maquetado: maquetado.md
+    - Talleres: 
+          - Linux: linux.md
+          - Git y Github: git.md
+
+
+
+
 
