@@ -11,8 +11,19 @@ nav.md-tabs{
 }
 
 :root {
-    --md-primary-fg-color:        #0480c9;
+    --md-primary-fg-color:        #6f6a8d;
     --md-primary-fg-color--light: #e22807;
-    --md-primary-fg-color--dark:  #030590;
+    --md-primary-fg-color--dark:  #039079;
   }
+
   
+.md-footer-meta{
+    background-color: rgba(25, 25, 25, 0.911);
+}
+.md-footer  {
+    background-color: rgba(25, 25, 25, 0.911);
+}
+
+.--md-default-bg-color{
+    background-color: blueviolet;
+}
