@@ -2,6 +2,7 @@
 
 Git nos va a ayudar a darle un seguimiento específico a archivos. 
 Nos permite administrar los cambios por archivo. Responde a:
+
 * ¿Quien hizo el cambio?
 * ¿Cuando hizo el cambio?
 
