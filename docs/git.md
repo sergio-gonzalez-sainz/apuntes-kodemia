@@ -81,6 +81,37 @@ Cuando se hace un git clone, ya no es necesario hacer un ``git init`` ya que ya 
 
 ``git push``:  Es lo que voy a utilizar para subir lo que tengo commiteado al repositorio remoto
 
+### Trabajo colaborativo en GitHub
+
+1. ``git clone <ssh link>``
+
+2. ``git branch <rama>``
+
+3. ``git switch <rama>``
+
+4. Editar archivo
+
+5. ``$git add .``
+
+6. ``git commit -m "texto"``
+
+7. ``git push --set-upstream origin < nombre de mi rama>``
+
+8. Ir a GitHub y crear pull request
+
+### Si hay conflictos
+
+1. Cambiar a main/master
+
+        git switch main
+
+2. ``git pull``
+3. ``git marge main``
+4. Hacemos los cambios 
+5. ``$git add .``
+6. ``git commit -m "texto"``
+7. ``git push --set-upstream origin < nombre de mi rama>``
+6. Ir a github y crear pull request 
 
 ## Claves de encriptacion
 La comunicación con GitHub y mi computadora se tieen que hacer de manera cifrada, para eso se utiliza una llave pública
@@ -119,37 +150,6 @@ y luego hacemos
 
 y si la queremos actulizar hacemos un ``git pull``
 
-## Trabajo colaborativo en GitHub
-
-1. ``git clone <ssh link>``
-
-2. ``git branch <rama>``
-
-3. ``git switch <rama>``
-
-4. Editar archivo
-
-5. ``$git add .``
-
-6. ``git commit -m "texto"``
-
-7. ``git push --set-upstream origin < nombre de mi rama>``
-
-8. Ir a GitHub y crear pull request
-
-### Si hay conflictos
-
-1. Cambiar a main/master
-
-        git switch main
-
-2. ``git pull``
-3. ``git marge main``
-4. Hacemos los cambios 
-5. ``$git add .``
-6. ``git commit -m "texto"``
-7. ``git push --set-upstream origin < nombre de mi rama>``
-6. Ir a github y crear pull request 
 
 
 
