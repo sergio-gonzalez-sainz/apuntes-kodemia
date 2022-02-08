@@ -502,6 +502,26 @@
     Trabajo colaborativo
   </a>
   
+    <nav class="md-nav" aria-label="Trabajo colaborativo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trabajo-colaborativo-en-github" class="md-nav__link">
+    Trabajo colaborativo en GitHub
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#si-hay-conflictos" class="md-nav__link">
+    Si hay conflictos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -515,26 +535,6 @@
   <a href="#reporitio-en-github" class="md-nav__link">
     Reporitio en GitHub
   </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#trabajo-colaborativo-en-github" class="md-nav__link">
-    Trabajo colaborativo en GitHub
-  </a>
-  
-    <nav class="md-nav" aria-label="Trabajo colaborativo en GitHub">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#si-hay-conflictos" class="md-nav__link">
-    Si hay conflictos
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -631,6 +631,26 @@
     Trabajo colaborativo
   </a>
   
+    <nav class="md-nav" aria-label="Trabajo colaborativo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trabajo-colaborativo-en-github" class="md-nav__link">
+    Trabajo colaborativo en GitHub
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#si-hay-conflictos" class="md-nav__link">
+    Si hay conflictos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -644,26 +664,6 @@
   <a href="#reporitio-en-github" class="md-nav__link">
     Reporitio en GitHub
   </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#trabajo-colaborativo-en-github" class="md-nav__link">
-    Trabajo colaborativo en GitHub
-  </a>
-  
-    <nav class="md-nav" aria-label="Trabajo colaborativo en GitHub">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#si-hay-conflictos" class="md-nav__link">
-    Si hay conflictos
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -739,33 +739,7 @@ La opción -m permite colocar un ""nombre" a este registro. </p>
 </code></pre>
 <p>Cuando se hace un git clone, ya no es necesario hacer un <code>git init</code> ya que ya tenemos una carpeta .git </p>
 <p><code>git push</code>:  Es lo que voy a utilizar para subir lo que tengo commiteado al repositorio remoto</p>
-<h2 id="claves-de-encriptacion">Claves de encriptacion</h2>
-<p>La comunicación con GitHub y mi computadora se tieen que hacer de manera cifrada, para eso se utiliza una llave pública
-y una privada.</p>
-<p>Esto se hace cada que se cambia de equipo. Se genera una llave, para ello abrimos terminal y 
-    ssh-keygen -t ed255119 -C "miCorreo"</p>
-<p><code>eval "$(ssh-agent -s)"</code></p>
-<p>Cuando se le da enter se les tiene qu aparecer el Pid agent </p>
-<p>se tiene que crear un archivo de .config 
-para eso se hace con nano y "config"</p>
-<h2 id="reporitio-en-github">Reporitio en GitHub</h2>
-<p>Se copia el ssh y se va a la terminal </p>
-<pre><code>     git remote add origin URL
-</code></pre>
-<p>El "origin" se llama Alias.
-para confirmar que esta todo bien se hace <code>git remote</code> o <code>git remote -v</code>
-Ya que se configuro, se puede hacer push.
-Cuando ya tenemos un repositorio para hacer push se hace lo siguinte:</p>
-<pre><code>    git push --set-upstream origin master
-</code></pre>
-<p>Para sabes si esta actualiza pongo </p>
-<pre><code>    git fetch
-</code></pre>
-<p>y luego hacemos </p>
-<pre><code>    git status
-</code></pre>
-<p>y si la queremos actulizar hacemos un <code>git pull</code></p>
-<h2 id="trabajo-colaborativo-en-github">Trabajo colaborativo en GitHub</h2>
+<h3 id="trabajo-colaborativo-en-github">Trabajo colaborativo en GitHub</h3>
 <ol>
 <li>
 <p><code>git clone &lt;ssh link&gt;</code></p>
@@ -809,6 +783,32 @@ Cuando ya tenemos un repositorio para hacer push se hace lo siguinte:</p>
 <li><code>git push --set-upstream origin &lt; nombre de mi rama&gt;</code></li>
 <li>Ir a github y crear pull request </li>
 </ol>
+<h2 id="claves-de-encriptacion">Claves de encriptacion</h2>
+<p>La comunicación con GitHub y mi computadora se tieen que hacer de manera cifrada, para eso se utiliza una llave pública
+y una privada.</p>
+<p>Esto se hace cada que se cambia de equipo. Se genera una llave, para ello abrimos terminal y 
+    ssh-keygen -t ed255119 -C "miCorreo"</p>
+<p><code>eval "$(ssh-agent -s)"</code></p>
+<p>Cuando se le da enter se les tiene qu aparecer el Pid agent </p>
+<p>se tiene que crear un archivo de .config 
+para eso se hace con nano y "config"</p>
+<h2 id="reporitio-en-github">Reporitio en GitHub</h2>
+<p>Se copia el ssh y se va a la terminal </p>
+<pre><code>     git remote add origin URL
+</code></pre>
+<p>El "origin" se llama Alias.
+para confirmar que esta todo bien se hace <code>git remote</code> o <code>git remote -v</code>
+Ya que se configuro, se puede hacer push.
+Cuando ya tenemos un repositorio para hacer push se hace lo siguinte:</p>
+<pre><code>    git push --set-upstream origin master
+</code></pre>
+<p>Para sabes si esta actualiza pongo </p>
+<pre><code>    git fetch
+</code></pre>
+<p>y luego hacemos </p>
+<pre><code>    git status
+</code></pre>
+<p>y si la queremos actulizar hacemos un <code>git pull</code></p>
 
               
             </article>
