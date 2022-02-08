@@ -146,7 +146,9 @@ y si la queremos actulizar hacemos un ``git pull``
 2. ``git pull``
 3. ``git marge main``
 4. Hacemos los cambios 
-5. git push --set-upstream origin <nombre de rama>
+5. ``$git add .``
+6. ``git commit -m "texto"``
+7. ``git push --set-upstream origin < nombre de mi rama>``
 6. Ir a github y crear pull request 
 
 

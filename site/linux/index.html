@@ -63,6 +63,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#introduccion-a-linux" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -404,10 +409,50 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Linux
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Linux
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#breve-historia-de-linux" class="md-nav__link">
+    Breve historia de Linux
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comandos-basicos-de-la-terminal" class="md-nav__link">
+    Comandos básicos de la terminal:
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -441,6 +486,46 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#breve-historia-de-linux" class="md-nav__link">
+    Breve historia de Linux
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comandos-basicos-de-la-terminal" class="md-nav__link">
+    Comandos básicos de la terminal:
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
@@ -451,9 +536,48 @@
 </a>
 
 
-  <h1>Linux</h1>
-
-
+<h1 id="introduccion-a-linux">Introducción a Linux</h1>
+<p>Linux es una familia de sistemas operativos de código abierto, basados en el kernel Linux. </p>
+<hr />
+<h2 id="breve-historia-de-linux">Breve historia de Linux</h2>
+<p>Unix es un sistema operativo que nació en 1969, en los laboratorios Bell de AT&amp;T. Fue desarrollado por Dennis Ritchie (Creador del Lenguaje C) y por Ken Thomson (Creador de los lenguajes B y Go). </p>
+<p>Su objetivo principal era crear un sistema operativo que fuera interactivo, que se pudiera dar instrucciones en tiempo real y que fuera multiusuario.</p>
+<p>Unix ofrecía una serie de programas y utilidades que permitía que fuera modular y extensible.</p>
+<p>Ejemplos de Sistemas Operativos Unix (<em>es decir, que cuentan con código original de Unix</em>):
+- MacOS
+- Darwin
+- IBM Solaris</p>
+<p>Linux fue creado en 1991 for Linus Torvalds. Empezó con Linux cuando era un estudiante universitario, desarrollando el Linux Kernel (<em>conjunto de utilidades que nos permite comunicarions con ciertas piezas de nuestro hardware</em>)</p>
+<p>Ejemplos de sistemas operativos GNU/Linux:
+- Manjaro
+- EndeavourOS
+- Linux Mint
+- Debian</p>
+<hr />
+<h2 id="comandos-basicos-de-la-terminal">Comandos básicos de la terminal:</h2>
+<p><code>sudo</code>: (_Abreviación de Super User Do) Todo lo que se ejecute con ese comando se ejecuta como súper administrador.</p>
+<p><code>apt</code>: Advanced Package Tool. Administrador de paquedes de Debian</p>
+<p><code>update</code>: Actualiza la lista de paquetes</p>
+<p><code>upgrade</code>: actualiza paquetes instalados</p>
+<p><code>install</code>: instala nuevos paquetes</p>
+<p><code>man</code>: Muestra el manual de cualquier comando</p>
+<p><code>ls</code>: lista todos los contenidos del directorio actual</p>
+<p><code>cd</code>: Nos permite cambiar de directorio</p>
+<p><code>pwd</code>: Imprime el directorio en el cual nos encontramos</p>
+<p><code>mkdir</code>: Crea un directorio</p>
+<p><code>mv</code>: Mueve o renombra archivos y directorios</p>
+<p><code>cp</code>: Copia archivos y directorios</p>
+<p><code>touch</code>: Nos permite crear nuevos archivos</p>
+<p><code>find</code>: Permite encontrar archivos o directorios dentro de un directorio</p>
+<p><code>ln</code>: Crea vínclos a archivos y directorios</p>
+<p><code>nano</code>: Editor de texto simple</p>
+<p><code>cat</code>: Imprime y concatena archivos</p>
+<p><code>less</code>: Abre un archivo para lectura interactiva</p>
+<p><code>grep</code>: Nos ayuda a buscar coincidencias de patrones en el contenido del archivo</p>
+<p><code>echo</code>: Imprime valor de argumento o comando</p>
+<p><code>alias</code>: Crea shortcuts para comandos</p>
+<p><code>chown</code>: Cambia las propiedades y permisos de archivos y directorios</p>
+<p><code>rm</code>: Borra archivos</p>
 
               
             </article>
