@@ -13,6 +13,7 @@ Una etiqueta de HTML está conformada por tres partes. Etiqueta de apertura, con
 La estructura básica de un documento HTML son:
 
 - tag `<HTML>`
+    - La etiqueta `<HTML>` sirve para indicar que es un documento de HTML 5 (_Doctype_)
 
 - tag `<head>`
     - tag `<meta>`
@@ -21,8 +22,6 @@ La estructura básica de un documento HTML son:
 
 - tag `<body>`
 
-
-La etiqueta `<HTML>` sirve para indicar que es un documento de HTML 5 (_Doctype_)
 
 ### Etiquetas más comunes en HTML
 - `<h1>` hasta `<h6>`
