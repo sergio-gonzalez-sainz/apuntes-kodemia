@@ -26,13 +26,13 @@ Linux fue creado en 1991 for Linus Torvalds. Empezó con Linux cuando era un est
 
 Ejemplos de sistemas operativos GNU/Linux:
 
-- Manjaro
+* Manjaro
 
-- EndeavourOS
+* EndeavourOS
 
-- Linux Mint
+* Linux Mint
 
-- Debian
+* Debian
 
 
 ---
