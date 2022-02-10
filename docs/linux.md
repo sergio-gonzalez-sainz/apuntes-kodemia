@@ -14,24 +14,33 @@ Su objetivo principal era crear un sistema operativo que fuera interactivo, que 
 Unix ofrecía una serie de programas y utilidades que permitía que fuera modular y extensible.
 
 Ejemplos de Sistemas Operativos Unix (_es decir, que cuentan con código original de Unix_):
+
 - MacOS
+
 - Darwin
+
 - IBM Solaris
+
 
 Linux fue creado en 1991 for Linus Torvalds. Empezó con Linux cuando era un estudiante universitario, desarrollando el Linux Kernel (_conjunto de utilidades que nos permite comunicarions con ciertas piezas de nuestro hardware_)
 
 Ejemplos de sistemas operativos GNU/Linux:
-- Manjaro
-- EndeavourOS
-- Linux Mint
-- Debian
+
+* Manjaro
+
+* EndeavourOS
+
+* Linux Mint
+
+* Debian
+
 
 ---
 
 
 ## Comandos básicos de la terminal:
 
-`sudo`: (_Abreviación de Super User Do) Todo lo que se ejecute con ese comando se ejecuta como súper administrador.
+`sudo`: (_Abreviación de Super User Do_) Todo lo que se ejecute con ese comando se ejecuta como súper administrador.
 
 `apt`: Advanced Package Tool. Administrador de paquedes de Debian
 
