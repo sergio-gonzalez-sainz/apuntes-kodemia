@@ -34,3 +34,7 @@ La estructura básica de un documento HTML son:
     - Incrustra una imagen.
 - `<ul>`, `<ol>`, `<li>`
     - usados para crear listas. El tag `<ul>` crea listas no-ordenadas (_unordered lists_). El tag `<ol>` crea listas ordenadas (_ordered lists_). El tag `<li>` es usado dentro de los tags `<ul>` y `<ol>` para indicar elementos de la lista.
+- `form`
+    - Usado para crear controles interactivos para enviar información. 
+- `span`
+    - Etiqueta genérica, comunmente usada para propósitos de agregar estilo. Es similar a la etiqueta `div`, con la diferencia que `span` es un elemento in-line, y el `div` es un elemento bloque.
