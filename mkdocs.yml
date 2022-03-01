@@ -29,14 +29,16 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-    - Declaración de intenciones: 
+    - Inicio: 
       - Intenciones: index.md
       - ¿Cómo colaborar?: colaborar.md
       - Markdown Syntax: syntax.md
-    - Maquetado: maquetado.md
+    - Maquetado: Maquetado/maquetado.md
+    - JavaScript:
+          - Repaso: Javascript/repaso.md
     - Talleres: 
-          - Linux: linux.md
-          - Git y Github: git.md
+          - Linux: Talleres/linux.md
+          - Git y Github: Talleres/git.md
 
 
 
